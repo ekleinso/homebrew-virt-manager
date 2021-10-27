@@ -25,6 +25,7 @@ class VirtManager < Formula
   depends_on "python"
   depends_on "spice-gtk"
   depends_on "vte3"
+  depends_on "docutils"
 
   resource "libvirt-python" do
     url "https://libvirt.org/sources/python/libvirt-python-7.8.0.tar.gz"
