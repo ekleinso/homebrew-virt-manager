@@ -28,18 +28,18 @@ class VirtManager < Formula
   depends_on "docutils"
 
   resource "libvirt-python" do
-    url "https://libvirt.org/sources/python/libvirt-python-7.8.0.tar.gz"
-    sha256 "9d07416d66805bf1a17f34491b3ced2ac6c42b6a012ddf9177e0e3ae1b103fd5"
+    url "https://libvirt.org/sources/python/libvirt-python-6.9.0.tar.gz"
+    sha256 "772cfeea1660bf2635c773ebcbff70c0d47b9cd6421cbd0d9d7203fac7296800"
   end
 
   resource "idna" do
-    url "https://pypi.io/packages/source/i/idna/idna-3.3.tar.gz"
-    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
+    url "https://pypi.io/packages/source/i/idna/idna-2.10.tar.gz"
+    sha256 "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
   end
 
   resource "certifi" do
-    url "https://pypi.io/packages/source/c/certifi/certifi-2021.5.30.tar.gz"
-    sha256 "2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee"
+    url "https://pypi.io/packages/source/c/certifi/certifi-2020.11.8.tar.gz"
+    sha256 "f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
   end
 
   resource "chardet" do
